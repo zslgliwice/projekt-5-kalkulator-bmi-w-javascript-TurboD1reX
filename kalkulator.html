@@ -4,9 +4,9 @@
 
 	<meta charset="utf-8">
 	<title>Kalkulator BMI</title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Kalkulator BMI">
+	<meta name="keywords" content="BMI Kalkulator KalkulatorBMI waga wzrost">
+	<meta name="author" content="YehorKryvoi">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">	
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
@@ -23,7 +23,11 @@
 	<main>
 	<article>
 		
-
+		<input type="text" id="wzrost" placeholder="Wzrost (cm)">
+		<input type="text" id="waga" placeholder="Waga (kg)">
+		<input type="checkbox" id="lbs-in"> Use lbs/in
+		<div class="answear"></div>
+		<button onclick="calculateBMI()">Calculate BMI</button>
 		
 	</article>	
 	</main>

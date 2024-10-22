@@ -1,4 +1,38 @@
 body {
 	background-color: #111;
 	color: #efefef;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form{
+	padding:10px;
+	border-radius: 10px;
+	border:1px solid white;
+	width:50%;
+	
+}
+input{
+height:8px;
+border-radius:2px;
+padding:10px 12px;
+font-size:30px;
+
+}
+input[type="checkbox"]{
+	width:15px;
+	height:15px;
+}
+button{
+background-color: transparent;
+border:2px solid white;
+
+font-size: 30px;
+font-weight: 900;
+color:white;
+}
+.temp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
